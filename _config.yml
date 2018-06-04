@@ -20,21 +20,34 @@ name: Yuri Costa
 title: Yuri
 description: "Come on in, grab a snack, and read on"
 keywords: "Yuri Costa, software engineer, developer, entrepreneur, phylosopher, Scientist, father, futurist"
-url: http://heroloop.com
+url: https://goo.gl/EuJnDG
 baseurl: "/mug"
 domain_name: sparkroad.com
 # google_analytics: UA-52446115-1
 repo: http://github.com/yuric/mug
+repo_owner: http://github.com/yuric
 disqus_shortname: ""
 
 author:
   name      : Yuri Costa
   image     : /assets/images/author.jpg
+  hero      : /assets/images/hero.png
   email     : coxaqui@gmail.com
   url       : http://heroloop.com
   instagram : http://instagram.com/coxaqui_
   github    : http://github.com/yuric
   linkedin  : http://www.linkedin.com/in/yuri-costa-0b1a2715
   bio       : "Father, customer centric technologist, educator, entrepreneur, and ping pong player"
+  resume    : https://goo.gl/EuJnDG
+
+social:
+  link: http://instagram.com/coxaqui_
+  slug: instagram
+  
+  link: http://github.com/yuric
+  slug: github
+  
+  link: http://www.linkedin.com/in/yuri-costa-0b1a2715
+  slug: linkedin
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
