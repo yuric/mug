@@ -2,8 +2,8 @@ permalink   : /:categories/:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 2 #6
-comments: true
+paginate: 6
+comments: false
 paginate_path: "/page/:num"
 
 source: source
@@ -16,27 +16,25 @@ cover: /assets/images/default-cover.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Mug Jekyll theme
-title: Mug
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
-url: http://nandomoreira.me
+name: Yuri Costa
+title: Yuri
+description: "Come on in, grab a snack, and read on"
+keywords: "Yuri Costa, software engineer, developer, entrepreneur, phylosopher, Scientist, father, futurist"
+url: http://heroloop.com
 baseurl: "/mug"
-domain_name: nandomoreira.me
+domain_name: sparkroad.com
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/mug
-disqus_shortname: "nandothemes"
+repo: http://github.com/yuric/mug
+disqus_shortname: ""
 
 author:
-  name      : Fernando Moreira
+  name      : Yuri Costa
   image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  email     : coxaqui@gmail.com
+  url       : http://heroloop.com
+  instagram : http://instagram.com/coxaqui_
+  github    : http://github.com/yuric
+  linkedin  : http://www.linkedin.com/in/yuri-costa-0b1a2715
+  bio       : "Father, customer centric technologist, educator, entrepreneur, and ping pong player"
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
